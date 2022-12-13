@@ -1,5 +1,7 @@
 # setup-system
 version : 18.04
+source : ROBOTIS e-manual, turtlebot3
+https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
 
 ## Install ROS on PC
     sudo apt-get update
