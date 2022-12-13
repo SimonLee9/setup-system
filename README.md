@@ -22,3 +22,17 @@ version : 18.04
     ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
     ros-melodic-compressed-image-transport ros-melodic-rqt* \
     ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
+
+## Install TurtleBot3 Packages (optional)
+    sudo apt-get install ros-melodic-dynamixel-sdk
+    
+    sudo apt-get install ros-melodic-turtlebot3-msgs
+    
+    sudo apt-get install ros-melodic-turtlebot3
+    
+## Install Simulation Package
+    cd ~/catkin_ws/src/
+    
+    git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    
+    cd ~/catkin_ws && catkin_make
