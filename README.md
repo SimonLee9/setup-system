@@ -40,3 +40,18 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
     git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
     
     cd ~/catkin_ws && catkin_make
+    
+## Install a Jetson board on a Jackal
+    cd src
+    
+    git clone https://github.com/jackal/jackal
+    
+    git clone https://github.com/jackal/jackal_desktop.
+    
+    cd ..
+    
+    rosdep install --from-paths src --ignore-src -r -y
+    
+    catkin_make
+    
+    source devel/setup.bash
