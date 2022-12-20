@@ -46,7 +46,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
     
     git clone https://github.com/jackal/jackal
     
-    git clone https://github.com/jackal/jackal_desktop.
+    git clone https://github.com/jackal/jackal_desktop.git
     
     cd ..
     
